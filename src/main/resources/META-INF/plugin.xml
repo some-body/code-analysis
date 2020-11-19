@@ -1,19 +1,19 @@
 <idea-plugin>
-    <id>com.github.some-body.codeanalysis</id>
+    <id>com.github.somebody.codeanalysis</id>
     <name>code-analysis</name>
-    <vendor>some-body</vendor>
+    <vendor>somebody</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.some-body.codeanalysis.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.some-body.codeanalysis.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.github.somebody.codeanalysis.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.somebody.codeanalysis.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.some-body.codeanalysis.listeners.MyProjectManagerListener"
+        <listener class="com.github.somebody.codeanalysis.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

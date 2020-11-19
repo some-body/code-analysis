@@ -1,6 +1,6 @@
-package com.github.some-body.codeanalysis.services
+package com.github.somebody.codeanalysis.services
 
-import com.github.some-body.codeanalysis.MyBundle
+import com.github.somebody.codeanalysis.MyBundle
 
 class MyApplicationService {
 

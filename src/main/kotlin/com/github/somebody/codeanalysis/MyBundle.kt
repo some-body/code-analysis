@@ -1,4 +1,4 @@
-package com.github.some-body.codeanalysis
+package com.github.somebody.codeanalysis
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

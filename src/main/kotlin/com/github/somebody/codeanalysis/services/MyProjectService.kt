@@ -1,7 +1,7 @@
-package com.github.some-body.codeanalysis.services
+package com.github.somebody.codeanalysis.services
 
 import com.intellij.openapi.project.Project
-import com.github.some-body.codeanalysis.MyBundle
+import com.github.somebody.codeanalysis.MyBundle
 
 class MyProjectService(project: Project) {
 

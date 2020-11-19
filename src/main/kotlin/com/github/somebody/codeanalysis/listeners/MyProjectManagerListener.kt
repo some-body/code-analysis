@@ -1,9 +1,9 @@
-package com.github.some-body.codeanalysis.listeners
+package com.github.somebody.codeanalysis.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.some-body.codeanalysis.services.MyProjectService
+import com.github.somebody.codeanalysis.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
